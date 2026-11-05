@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_small_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_light"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <TextView
+        android:id="@+id/widget_small_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="#858982"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-medium"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/widget_small_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="21°"
+        android:textColor="#202321"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:id="@+id/widget_small_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Mainly Clear"
+        android:textColor="#202321"
+        android:textSize="13sp"
+        android:fontFamily="sans-serif"
+        android:singleLine="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/widget_small_updated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updated just now"
+        android:textColor="#858982"
+        android:textSize="10sp" />
+</LinearLayout>

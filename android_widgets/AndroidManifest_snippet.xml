@@ -1,0 +1,42 @@
+<!--
+  Add this snippet inside the <application> tag of your android/app/src/main/AndroidManifest.xml
+-->
+
+<!-- Small Widget Provider -->
+<receiver
+    android:name=".widgets.WeatherWidgetSmallProvider"
+    android:exported="true"
+    android:label="Weather Small">
+    <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+    </intent-filter>
+    <meta-data
+        android:name="android.appwidget.provider"
+        android:resource="@xml/weather_widget_small_info" />
+</receiver>
+
+<!-- Medium Widget Provider -->
+<receiver
+    android:name=".widgets.WeatherWidgetMediumProvider"
+    android:exported="true"
+    android:label="Weather &amp; AQI Medium">
+    <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+    </intent-filter>
+    <meta-data
+        android:name="android.appwidget.provider"
+        android:resource="@xml/weather_widget_medium_info" />
+</receiver>
+
+<!-- Large Widget Provider -->
+<receiver
+    android:name=".widgets.WeatherWidgetLargeProvider"
+    android:exported="true"
+    android:label="Weather Comprehensive">
+    <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+    </intent-filter>
+    <meta-data
+        android:name="android.appwidget.provider"
+        android:resource="@xml/weather_widget_large_info" />
+</receiver>

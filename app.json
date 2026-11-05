@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Weather & Air Quality",
+    "slug": "weather-companion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "description": "Minimal, real-time meteorological and air quality companion with native Android home-screen widgets and severe weather alerts.",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.weathercompanion.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Weather & Air Quality Companion requests your location to provide accurate local temperature, humidity, and atmospheric air quality readings."
+      }
+    },
+    "android": {
+      "package": "com.weathercompanion.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F7F2",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "POST_NOTIFICATIONS",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "WAKE_LOCK"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

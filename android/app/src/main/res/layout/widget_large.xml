@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_large_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_light"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header: Location & Updated -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/widget_large_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Location"
+            android:textColor="#202321"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/widget_large_updated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Updated just now"
+            android:textColor="#858982"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <!-- Main Temp Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/widget_large_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21°"
+            android:textColor="#202321"
+            android:textSize="44sp"
+            android:fontFamily="sans-serif-light" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/widget_large_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mainly Clear"
+                android:textColor="#202321"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:id="@+id/widget_large_feels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feels like 20°"
+                android:textColor="#858982"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/widget_large_highlow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H: 24°  L: 15°"
+                android:textColor="#858982"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/widget_large_aqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E8EFE9"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:text="AQI 32 · Good"
+            android:textColor="#5E7D61"
+            android:textSize="11sp"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <!-- Thin Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="12dp"
+        android:background="#E3E3DC" />
+
+    <!-- Hourly Strip (4 columns) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Hour 1 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/hour_time_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Now"
+                android:textColor="#858982"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/hour_temp_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="21°"
+                android:textColor="#202321"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-medium" />
+            <TextView
+                android:id="@+id/hour_rain_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#5E7D61"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <!-- Hour 2 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/hour_time_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12 PM"
+                android:textColor="#858982"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/hour_temp_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="22°"
+                android:textColor="#202321"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-medium" />
+            <TextView
+                android:id="@+id/hour_rain_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#5E7D61"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <!-- Hour 3 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/hour_time_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 PM"
+                android:textColor="#858982"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/hour_temp_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="23°"
+                android:textColor="#202321"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-medium" />
+            <TextView
+                android:id="@+id/hour_rain_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15%"
+                android:textColor="#5E7D61"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <!-- Hour 4 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/hour_time_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 PM"
+                android:textColor="#858982"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/hour_temp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="22°"
+                android:textColor="#202321"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-medium" />
+            <TextView
+                android:id="@+id/hour_rain_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#5E7D61"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
