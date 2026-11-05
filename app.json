@@ -1,17 +1,17 @@
 {
   "expo": {
-    "name": "Weather & Air Quality",
-    "slug": "weather-companion",
+    "name": "DailySky",
+    "slug": "dailysky",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
-    "description": "Minimal, real-time meteorological and air quality companion with native Android home-screen widgets and severe weather alerts.",
+    "description": "DailySky - Minimal, real-time meteorological and air quality companion with native Android home-screen widgets and severe weather alerts.",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.weathercompanion.app",
       "infoPlist": {
-        "NSLocationWhenInUseUsageDescription": "Weather & Air Quality Companion requests your location to provide accurate local temperature, humidity, and atmospheric air quality readings."
+        "NSLocationWhenInUseUsageDescription": "DailySky requests your location to provide accurate local temperature, humidity, and atmospheric air quality readings."
       }
     },
     "android": {
@@ -35,6 +35,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ee515650-3b5e-4376-ad4a-aa1a9339ee8c"
+      }
     }
   }
 }

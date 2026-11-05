@@ -202,7 +202,7 @@ export async function triggerTestNotification(): Promise<boolean> {
 
     await Notifications.scheduleNotificationAsync({
       content: {
-        title: 'Weather & Air Quality Companion',
+        title: 'DailySky',
         body: 'Alerts are configured! You will receive timely advisories for severe weather and poor air quality.',
         sound: true,
       },

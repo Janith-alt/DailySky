@@ -1,4 +1,4 @@
-# Weather & Air Quality Companion
+# DailySky — Real-Time Weather & Air Quality
 
 A professionally designed, minimal, and modern real-time weather and air quality application for Android built with React Native, TypeScript, Expo, and native Android AppWidgets.
 

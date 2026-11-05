@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">Weather &amp; Air Quality</string>
+  <string name="app_name">DailySky</string>
   <string name="widget_small_description">Compact current temperature, weather icon, and location.</string>
   <string name="widget_medium_description">Weather condition, today high/low, and live air quality index.</string>
   <string name="widget_large_description">Comprehensive weather outlook with next 4-hour forecast and AQI.</string>

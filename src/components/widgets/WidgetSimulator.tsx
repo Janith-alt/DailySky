@@ -271,7 +271,7 @@ export const WidgetSimulator: React.FC<WidgetSimulatorProps> = ({
       <View style={[styles.guideNote, { backgroundColor: theme.surface, borderColor: theme.border }]}>
         <Smartphone size={16} color={theme.accent} strokeWidth={2} style={styles.phoneIcon} />
         <Text style={[styles.guideText, { color: theme.textSecondary }]}>
-          Built using native Android AppWidgetProvider with periodic WorkManager background refresh. To install on your Android home screen: long-press wallpaper → Widgets → Weather Companion.
+          Built using native Android AppWidgetProvider with periodic WorkManager background refresh. To install on your Android home screen: long-press wallpaper → Widgets → DailySky.
         </Text>
       </View>
     </View>
