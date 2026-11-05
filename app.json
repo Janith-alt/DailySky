@@ -18,7 +18,7 @@
       "package": "com.weathercompanion.app",
       "versionCode": 1,
       "adaptiveIcon": {
-        "backgroundColor": "#F7F7F2",
+        "backgroundColor": "#1B45B4",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
