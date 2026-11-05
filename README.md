@@ -13,17 +13,7 @@ Designed to counter the generic "AI slop" aesthetic (no neon gradients, glowing 
 - **Flat & Tactile**: Flat surfaces, subtle 1px divider lines, and small corner radiuses (6–12px).
 - **Consistent Iconography**: Simple, standardized meteorological glyphs.
 
-### Color Palette
 
-| Token | Light Mode | Dark Mode | Usage |
-| :--- | :--- | :--- | :--- |
-| **Background** | `#F7F7F2` (Warm off-white) | `#171A18` (Deep charcoal) | Base scaffold |
-| **Surface** | `#FFFFFF` | `#1F2420` | Flat cards & containers |
-| **Primary Text** | `#202321` (Almost black) | `#ECEFEA` (Soft off-white) | High-contrast readings |
-| **Secondary Text**| `#666C64` (Muted grey) | `#A0A79E` | Labels & metadata |
-| **Accent** | `#5E7D61` (Natural green) | `#7D9F80` (Sage green) | Primary actions & safe AQI |
-| **Warning** | `#D97736` (Muted orange) | `#E28A4B` | Weather advisories & poor AQI |
-| **Critical** | `#C84B4B` (Soft red) | `#D96161` | Severe weather & emergency AQI |
 
 ---
 
