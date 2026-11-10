@@ -6,7 +6,7 @@ A professionally designed, minimal, and modern real-time weather and air quality
 
 ## 1. Design Philosophy
 
-Designed to counter the generic "AI slop" aesthetic (no neon gradients, glowing borders, purple/blue gradient overload, or unnecessary glassmorphism).
+Designed to counter the generic "AI slop" aesthetic 
 
 - **Editorial Aesthetic**: Warm off-white surfaces, natural green accents, muted warning indicators, and deep charcoal in dark mode.
 - **Restrained Typography**: Clean sans-serif hierarchy with large, elegant, low-weight temperature readouts.
